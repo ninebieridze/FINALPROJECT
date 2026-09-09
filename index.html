@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio and resume website">
+  <meta name="author" content="Your Name">
+  <title>Nini Nebieridze | Front End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">Nini<span>Nebieridze</span></a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#projects">My Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Nini Nebieridze</h1>
+          <h2>Front End <span>Developer</span></h2>
+          <p class="hero-text">
+            I am a motivated Junior Front-End Developer who has recently completed my studies in web development. I enjoy creating clean, responsive and user-friendly websites while continuously improving my skills and learning new technologies.
+          <div class="socials">
+            <a href="https://github.com/ninebieridze" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/nini-nebieridze-6431541a1/" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+            <a href="https://www.instagram.com/ninineb0/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          </div>
+
+          <a class="btn" href="#contact">Hire Me</a>
+        </div>
+
+        <div class="hero-slider">
+          <div class="hero-image-wrap">
+            <img class="hero-slide active" src="images/hero-1.svg" alt="Profile 1">
+            <img class="hero-slide" src="images/hero-2.svg" alt="Profile 2">
+            <img class="hero-slide" src="images/hero-3.svg" alt="Profile 3">
+          </div>
+          <div class="slider-dots" aria-label="Hero slider">
+            <button class="hero-dot active" aria-label="Slide 1"></button>
+            <button class="hero-dot" aria-label="Slide 2"></button>
+            <button class="hero-dot" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Who I am</p>
+          <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="images/about.svg" alt="About me">
+          </div>
+
+          <div class="about-content">
+            <p>
+              I am a Junior Front-End Developer who has recently completed my studies in web development. During my studies, I gained practical experience with HTML, CSS, JavaScript, responsive design, and Git/GitHub. I enjoy turning ideas and designs into clean, functional, and user-friendly websites.
+              I am passionate about technology and continuously improving my development skills by working on personal projects and learning new tools. I’m motivated to start my professional career, gain real-world experience, work as part of a team, and grow into a confident and skilled Front-End Developer.
+            </p>
+            <p>
+              I am interested in creating modern and visually appealing websites that provide a good user experience. I enjoy solving problems, exploring new technologies, and improving my skills through practice and personal projects.
+              My main career goal is to start working as a Front-End Developer and gain experience by working on real-world projects. I’m excited to learn from experienced developers, take on new challenges, and gradually grow into a skilled and confident professional.
+            </p>
+            <div class="skills">
+              <div class="skill">
+                <div class="skill-label"><span>HTML / CSS</span><strong>90%</strong></div>
+                <div class="progress"><span data-width="90%"></span></div>
+              </div>
+              <div class="skill">
+                <div class="skill-label"><span>JavaScript</span><strong>80%</strong></div>
+                <div class="progress"><span data-width="80%"></span></div>
+              </div>
+              <div class="skill">
+                <div class="skill-label"><span>UI / UX Design</span><strong>85%</strong></div>
+                <div class="progress"><span data-width="85%"></span></div>
+              </div>
+              <div class="skill">
+                <div class="skill-label"><span>Communication</span><strong>95%</strong></div>
+                <div class="progress"><span data-width="95%"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">What I offer</p>
+          <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="service-card">
+            <div class="icon">01</div>
+            <h3>Web Design</h3>
+            <p>Modern, responsive website designs focused on usability and visual clarity.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">02</div>
+            <h3>Web Development</h3>
+            <p>Clean HTML, CSS and JavaScript implementation with responsive layouts.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">03</div>
+            <h3>UI / UX Design</h3>
+            <p>User-centered interfaces, wireframes and polished visual experiences.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">04</div>
+            <h3>Support</h3>
+            <p>Content updates, small improvements and ongoing website support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">My work</p>
+          <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="filters" role="group" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="uiux">UI/UX</button>
+          <button class="filter" data-filter="web">Web Design</button>
+          <button class="filter" data-filter="development">Development</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="uiux">
+            <img src="images/project-1.svg" alt="UI UX project">
+            <div class="project-info">
+              <span>UI/UX</span>
+              <h3>Mobile Banking App</h3>
+              <p>A responsive mobile banking app designed to provide users with a simple and convenient way to manage their finances. The project focuses on clean UI, intuitive navigation, and a user-friendly experience across different screen sizes.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <img src="images/project-2.svg" alt="Web design project">
+            <div class="project-info">
+              <span>Web Design</span>
+              <h3>Creative Landing Page</h3>
+              <p>
+                A modern and responsive landing page created with a focus on clean design, simple navigation, and an engaging user experience. The project helped me practice structuring web pages and creating layouts that work well on different screen sizes.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="development">
+            <img src="images/project-3.svg" alt="Development project">
+            <div class="project-info">
+              <span>Development</span>
+              <h3>Portfolio Website</h3>
+              <p>
+                A responsive portfolio website designed to showcase my skills, projects, and experience as a junior front-end developer. I focused on creating a clean layout, easy navigation, and a responsive design that looks good on different devices.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">What people say</p>
+          <h2>Testimonials</h2>
+        </div>
+
+        <div class="testimonial-slider">
+          <article class="testimonial active">
+            <img src="images/avatar-1.svg" alt="Testimonial person">
+            <p>"Working together was a great experience. The final result was clean, thoughtful and professional."</p>
+            <h3>Alex Johnson</h3>
+            <span>Product Manager</span>
+          </article>
+          <article class="testimonial">
+            <img src="images/avatar-2.svg" alt="Testimonial person">
+            <p>"Excellent communication and attention to detail. I would happily work together again."</p>
+            <h3>Emma Wilson</h3>
+            <span>Marketing Specialist</span>
+          </article>
+          <article class="testimonial">
+            <img src="images/avatar-3.svg" alt="Testimonial person">
+            <p>"A reliable professional who understands both design and the user's needs."</p>
+            <h3>Daniel Brown</h3>
+            <span>Project Manager</span>
+          </article>
+          <article class="testimonial">
+            <img src="images/avatar-4.svg" alt="Testimonial person">
+            <p>"The website looked modern, worked perfectly on mobile and was delivered on time."</p>
+            <h3>Sophia Davis</h3>
+            <span>Business Owner</span>
+          </article>
+        </div>
+
+        <div class="testimonial-dots" aria-label="Testimonial slides">
+          <button class="testimonial-dot active" data-slide="0" aria-label="Testimonial 1"></button>
+          <button class="testimonial-dot" data-slide="1" aria-label="Testimonial 2"></button>
+          <button class="testimonial-dot" data-slide="2" aria-label="Testimonial 3"></button>
+          <button class="testimonial-dot" data-slide="3" aria-label="Testimonial 4"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Let's talk</p>
+          <h2>Contact <span>Me</span></h2>
+          <p>Have a project or question? Send me a message and I'll get back to you.</p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <input type="url" name="website" placeholder="Your Website">
+          <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="success-modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-check">✓</div>
+      <h2 id="modal-title">Thank you!</h2>
+      <p>Thank you for getting in touch! We appreciate you contacting us.</p>
+      <button class="btn modal-ok">OK</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Nini<span>Nebieridze</span></a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="https://github.com/ninebieridze" target="_blank" rel="noopener">GH</a>
+        <a href="https://www.linkedin.com/in/nini-nebieridze-6431541a1/" target="_blank" rel="noopener">IN</a>
+        <a href="https://www.instagram.com/ninineb0/" target="_blank" rel="noopener">IG</a>
+      </div>
+      <p class="copyright">© 2026 Nini Nebieridze. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
