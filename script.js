@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Mobile navigation
+
   const menuToggle = document.querySelector(".menu-toggle");
   const nav = document.querySelector(".nav");
 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Header navigation active state
+
   const sections = document.querySelectorAll("main section[id]");
   const navLinks = document.querySelectorAll(".nav a");
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sections.forEach(section => observer.observe(section));
 
-  // Hero slider: changes ONLY the photos every 5 seconds.
+
   const heroSlides = document.querySelectorAll(".hero-slide");
   const heroDots = document.querySelectorAll(".hero-dot");
   let heroIndex = 0;
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dot.addEventListener("click", () => showHeroSlide(index));
   });
 
-  // About progress bars animate when About section enters viewport.
+
   const aboutSection = document.querySelector("#about");
   const progressBars = document.querySelectorAll(".progress span");
 
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   skillObserver.observe(aboutSection);
 
-  // Project filtering
+
   const filterButtons = document.querySelectorAll(".filter");
   const projectCards = document.querySelectorAll(".project-card");
 
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Testimonials: exactly 4 slides + 4 buttons.
+
   const testimonials = document.querySelectorAll(".testimonial");
   const testimonialDots = document.querySelectorAll(".testimonial-dot");
 
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Contact form -> JSONPlaceholder POST.
+ 
   const contactForm = document.querySelector("#contact-form");
   const formStatus = document.querySelector("#form-status");
   const modal = document.querySelector("#success-modal");
